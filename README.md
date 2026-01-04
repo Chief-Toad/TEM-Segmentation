@@ -81,7 +81,7 @@ This approach reduces memory usage, improves generalization, and mitigates overf
 ## Loss Function
 Training uses a combined loss:
 
-                                              𝐿 = CrossEntropy + 𝜆 * SoftDice,  𝜆 = 0.5
+                                          𝐿 = CrossEntropy + 𝜆 * SoftDice,    𝜆 = 0.5
 
 - Cross-entropy loss encourages correct pixel classification
 - Dice loss improves performance on underrepresented classes
